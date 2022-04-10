@@ -6,7 +6,7 @@ window.addEventListener('scroll', (event) =>{
 	const {top} = element.getBoundingClientRect();
 
   if( top - window.innerHeight < scrollAmount){
-  element.style.backgroundImage = 'url(img/stevenholl.png)';
+  element.style.backgroundImage = 'url(Img/stevenholl.png)';
   }
 });
 };
