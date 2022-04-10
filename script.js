@@ -8,6 +8,9 @@ window.addEventListener('scroll', (event) =>{
   if( top - window.innerHeight < scrollAmount){
   element.style.backgroundImage = 'url(Img/stevenholl.png)';
   }
+  else(top -window.innerHeight > scrollAmount){
+    element.style.backgroundImage = 'url(Img/a.jpg)';
+  }
 });
 };
 
