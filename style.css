@@ -10,6 +10,12 @@
     box-sizing: border-box;
 
 }
+.or{
+  color: black;
+}
+::before {
+  color: black;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -203,121 +209,12 @@ li{
   font-weight: normal;
   font-size: 15px;
 }
-/* exhibition1 */
 
 
 
 
 
-/* 
-.copyright{
-  padding-top: 1px;
-  color: white;
-  font-family: "Opensans", sans-serif;
-  text-align: center;
-  width: 100%;
-} 
 
-.fa-brands-footer,a{
-  color: white;
-}
-
-.container1{
-  background-color: black;
-  color: white;
-  height: 600px;
-  position: relative;
-}
-.section-gallary{
-  padding-top: 45px;
-  padding-left: 20px
-}
-.row{
-  display: flex;
-  padding-top: 140px;
-  padding-left: 145px;
-}
-.column{
-  flex: auto;
-  padding: 30px;
-}
-.contact-title{
-
-  font-size: 20px;
-  font-weight: 800;
-  font-family: "Open Sans" , sans-serif;
-}
-.section{
-  padding: 20px;
-}
-
-.title{
-  display: inline-block;
-  font-size: 20px;
-  font-weight: 800;
-  font-family: "Open Sans" , sans-serif;
-}
-.line{
-  background-color: transparent;
-  color: #eeeeee;
-  outline: none;
-  outline-style: none;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: solid #eeeeee 1px;
-  padding-top: 10px;
-}
-.section-garden{
-  padding-top: 55px;
-  padding-left: 20px
-}
-.section-text{
-  padding-top: 15px;
-  
-  font-size:10px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-}
-.text{
-  font-size:10px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-}
-.text-mail{
-  font-size:10px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-}
-.footer{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  text-align: center;
-  font-size:15px;
-  font-weight: "Regular";
-  font-family: "Open Sans";
-}
-input{
-  background: none;
-  color: rgba(255,255,255,.2);
-  border: none;
-}
-a.social{
-   padding-left: 2px;
-}
-
-.mailing{
-  padding-top: 10px;
-}
-footer{
-  background-color: black;
-}
-i{
-  padding-top: 40px;  
-} */
 
 .copyright{
   padding-top: 1px;
@@ -457,12 +354,7 @@ p{
   padding-bottom: 45px;
   font-family: "Raleway" , sans-serif;
 }
-.or{
-  color: black;
-}
-::before {
-  color: black;
-}
+
 .logo-ar1{
   color: black;
   padding-top: 25px;
