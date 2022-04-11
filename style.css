@@ -13,6 +13,10 @@
 html{
   scroll-behavior: smooth;
 }
+.containervillage{
+  height:2160px;
+  background-image:url('Img/Frame\ 42.png')
+}
 .fa-brands,a{
   color: white;
 }
@@ -73,61 +77,18 @@ ul{
   background-size: cover;
   height: 1080px;
 }
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+.slide-show{
+  width: 100%;
 }
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
+.content{
+  height: 1080px;
 }
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
+.next{
   color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+  padding-bottom: 400px;
+  padding-left: 200px;
+  margin-bottom: 20px;
 }
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-
-
-/* The dots/bullets/indicators */
-
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
 .content-text{
   text-align: left;
   align-self: center;  
@@ -259,52 +220,9 @@ li{
   font-size: 15px;
 }
 /* exhibition1 */
-.header-name{
-  font-family: "OpenSans" sans-serif;
-  font-weight: 400;
-  font-size: 40PX;
-  color: white;
-  padding-left: 145px;
-  padding-top: 45px;
-}
-.artist-info{
-  display: flex;
-  justify-content: space-between;
-}
-.bio{
-  font-family: "OpenSans" sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  color: white;
-  padding-top: 40px;
-  width: 780px;
-}
-.neri{
-  margin-top: 100px;
-}
-.slider{
-  width: 100%;
-height: 1080px;
-}
-.slide{
-  background-image: url('Img/slid.png')
-}
- 
 
-.btn{
-	border:none;
-	outline:none;
-	background:#888;
-	padding:10px 30px;
-	font-size: 20px;
-	color:#ddd;
-	cursor: pointer;
-	margin:10px auto;			 
-}
 
-.btn:hover{
-	background: #111;
-}
+
 
 
 /* 
@@ -551,7 +469,7 @@ p{
   width: 400px;
 }
 .header-ar1{
-  padding-left: 420px;
+  padding-left: 428px;
   font-family: "Raleway" , sans-serif;
 }
 .logo-ar1{
@@ -620,10 +538,46 @@ a.links-p {
   font-size: 10px;
 }
 /* exhibition1 styling */
+.container-lane{
+  background-image: url('Img/lane.png');
+  height: 2160px;
+}
 .artist-info{
   width: 100%;
   height: 489px;
   background-color: #181818;
+}
+.header-name{
+  font-family: "Open Sans" sans-serif;
+  font-weight: 400;
+  font-size: 45PX;
+  color: white;
+  padding-left: 145px;
+  padding-right: 45px;
+  padding-top: 45px;
+}
+.imglane{
+  background-image: url('Img/Frame\ 45.png');
+  background-size: cover;
+  height: 1080px;
+}
+.artist-info{
+  display: flex;
+  justify-content: space-between;
+}
+.bio{
+  font-family: "OpenSans" sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  padding-top: 40px;
+  width: 780px;
+}
+.neri{
+  margin-top: 100px;
+}
+.slide{
+  height: 2160px;
 }
 /* references styling */
 .reference{
@@ -638,6 +592,7 @@ a.links-p {
 .textcontainer{
   background-color:black;
 }
+
 .citation {
   width: 497px;
   background-color:black;
@@ -689,182 +644,42 @@ a.rf-logo {
     font-weight: normal;
     font-size: 15px;
 }
+/* exhibitions2 styling */
+.sidebar4{
+  position: fixed;
+  background-color: rgba(0,0,0,0.8);
+  width: 100px;
+  height: 1080px;
+}
+.imgunfolding{
+  background-image: url('Img/Frame\ 44.png');
+  background-size: cover;
+  height: 1080px;
+}
 /* designdoc styling */
-.logo-ar{
-  padding-top: 25px;
-  padding-left: 45px;
-  text-align: center;
-  margin-right: auto;
+
+.designdocimg {
+  padding-left: 450px;
+}
+.title-section{
+  background-color: black;
   font-family: "Raleway", sans-serif;
-  font-size: 1.25rem;
+}
+.design{
+  background-color: black;
+}
+.design-tittle{
+  color: white;
+  font-family: "Raleway", sans-serif;
+  padding-left: 450px;
   font-weight: 800;
-  cursor: pointer;
-  text-decoration: none;
-
 }
-.icon{
+.design-tittles{
   color: white;
-}
-.ar-logo{
-  color: white;
-  font-weight: 800;
-  font-size: 1.25rem;
-}
-.container{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  color: white;
-}
-
-
-li{
-
-  padding-top: 25px;
-  list-style-type: none;
-  display: inline-block;
-  padding: 25px;
-}
-.ar{
-  color: white;
-  text-decoration: none;
-  font-weight: normal;
-  font-size: 15px;
-}
-
-
-* {
-  box-sizing: border-box;
-}
-body {
-  font-size: 14px;
-}
-
-
-.styleguide{
-  margin-top:350px;
-}
-.styleguide h1{
-  position:absolute;
-
-
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
-}
-.centers {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.textcontainer h1{
-  font-family:"Raleway";
-  font-weight:Bold;
-  font-size:25px;
-  position:absolute;
-  text-align: left;
-  color:white;
-  top:180px;
-  left:420px;
-  width: 500px;
-  height: 200px;
-
-
-}
-
-.textcontainer h2{
-  font-family:"Raleway";
-  font-weight:Bold;
-  font-size:15px;
-  position:absolute;
-  text-align: left;
-  color:white;
-  top:350px;
-  left:630px;
-  max-width:1100px;
-
-
-}
-
-.bottom h3 {
-  width: 1100px;
-  height: 500px;
-  background-color:black;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top:6000px;
-  left: 1290px;
-  font-family: "Raleway";
-  font-weight: Bold;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
-/* .left-half {
-  padding-left: 145px;
-  flex: 1;
-  padding: 1rem;
-}
-
-.right-half {
- 
-  flex: 1;
-  padding: 1rem;
-}
-.bottomrow {
-  width: 749px;
-  background-color:black;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 928px;
-  left: 1111px;
-  font-family: Raleway;
-  font-weight: Bold;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
-.cite{
-  font-family: 'Raleway' , sans-serif;
+  font-family: "Raleway", sans-serif;
+  padding-left: 450px;
   font-weight: 400;
-  font-size: 15px;
-} */
-/* custom curser
- .inner-cursor {
-     position: fixed;
-     left: 10px;
-     width: 10px;
-     height: 10px;
-     transform: translate(-50%, -50%);
-     background-color: #fff;
-     mix-blend-mode: difference;
-     border-radius: 50%;
-     pointer-events: none;
-     transition: width 0.5s, height 0.5s;
-  }
-
-  .inner-cursor{
-      width: 25px;
-      height: 25px;
-      transition: width 0.5s, height 0.5s;
-  }
-
-  .outer-cursor{
-      position: fixed;
-      left: 10px;
-      width: 25px;
-      height: 25px;
-      transform: translate(-50%, -50%);
-      border: 1px solid #fff;
-      mix-blend-mode: difference;
-      border-radius: 50%;
-      pointer-events: none;
-  } */
-
-
+}
+.artist-links{
+  color: black;
+}
