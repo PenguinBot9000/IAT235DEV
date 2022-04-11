@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 :root {
     --main-radius: 0px;
@@ -65,6 +65,8 @@ ul{
   color: white;
   padding: 10px;
   padding-top: 40px;
+  font-size: 15px;
+  font-weight: 400;
 }
 .img{
   background-image: url('Img/a.jpg');
@@ -202,7 +204,29 @@ li{
   font-weight: normal;
   font-size: 15px;
 }
-
+/* exhibition1 */
+.header-name{
+  font-family: "OpenSans" sans-serif;
+  font-weight: 400;
+  font-size: 40PX;
+  color: white;
+  padding-left: 145px;
+  padding-top: 45px;
+}
+.artist-info{
+  display: flex;
+  justify-content: space-between;
+}
+.bio{
+  font-family: "OpenSans" sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  padding-top: 40px;
+}
+.neri{
+  margin-top: 100px;
+}
 /* 
 .copyright{
   padding-top: 1px;
