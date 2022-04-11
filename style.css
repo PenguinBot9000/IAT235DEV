@@ -89,23 +89,7 @@ ul{
   padding-left: 200px;
   margin-bottom: 20px;
 }
-.content-text{
-  text-align: left;
-  align-self: center;  
-  color: white;
-  padding-top: 145px;
-  font-family: "Raleway", sans-serif;
-  padding-left: 1240px;
-  display: hidden;
-}
-.content-text2{
-  text-align: left;
-  align-self: center;  
-  color: white;
-  padding-top: 145px;
-  font-family: "Raleway", sans-serif;
-  padding-left: 1240px;
-}
+
 /* landing style ends */
 .img-ex{
   background-image: url("img/a.jpg");
@@ -422,7 +406,7 @@ i{
   margin: auto;
   text-align: center;
   font-size:15px;
-  font-weight: "Regular";
+  font-weight: 400;
   font-family: "Open Sans";
 }
 input{
@@ -472,6 +456,12 @@ p{
   padding-left: 428px;
   padding-bottom: 45px;
   font-family: "Raleway" , sans-serif;
+}
+.or{
+  color: black;
+}
+::before {
+  color: black;
 }
 .logo-ar1{
   color: black;
